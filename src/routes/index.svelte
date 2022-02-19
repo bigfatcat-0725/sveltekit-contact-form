@@ -25,13 +25,13 @@
 	{:else}
 		<form on:submit|preventDefault="{submitForm}">
 			<div>
-				<label for="">
+				<label for="name">
 					Name
 					<input type="text" name="name" />
 				</label>
 			</div>
 			<div>
-				<label for="">
+				<label for="email">
 					Email
 					<input type="email" name="email" />
 				</label>
